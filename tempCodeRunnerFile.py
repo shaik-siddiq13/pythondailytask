@@ -1,9 +1,3 @@
-text = "banana"
-
-count = 0
-
-for ch in text:
-    if ch == "a":
-        count += 1
-
-print("Count of a:",count)
+def print_date(day, month = "March", year = 2026):
+    print(day,month,year)
+print_date(15)

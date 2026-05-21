@@ -1,3 +1,6 @@
-def print_date(day, month = "March", year = 2026):
-    print(day,month,year)
-print_date(15)
+from functools import reduce
+numbers = [10,20,30,40]
+total = reduce(lambda x,y : x + y, numbers)
+average = total / len(numbers)
+print(average)
+
